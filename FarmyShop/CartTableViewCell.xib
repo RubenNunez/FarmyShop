@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CartViewController" customModule="FarmyShop" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CartTableViewCell" rowHeight="89" id="KGk-i7-Jjw" customClass="CartTableViewCell" customModule="FarmyShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="341" height="92"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="341" height="91"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ProductName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="znk-aN-eqh">
+                        <rect key="frame" x="8" y="8" width="124" height="28"/>
+                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qat-7w-SHb" userLabel="Product Description">
+                        <rect key="frame" x="8" y="34" width="87" height="24"/>
+                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1LH-mq-cI7" userLabel="PriceTotal">
+                        <rect key="frame" x="216" y="8" width="115" height="28"/>
+                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="QTY" placeholder="0" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Icd-35-cV8">
+                        <rect key="frame" x="216" y="39" width="115" height="13"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="10"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" minimumValue="-1" maximumValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="oRt-Rz-jWj">
+                        <rect key="frame" x="227" y="54" width="94" height="29"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.33751881119999999" green="0.75489050150000003" blue="0.41812002660000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <connections>
+                            <action selector="productStepperChange:" destination="KGk-i7-Jjw" eventType="valueChanged" id="eul-Hf-9L3"/>
+                            <action selector="productStepperChange:" destination="-1" eventType="valueChanged" id="gpZ-oh-Mc4"/>
+                        </connections>
+                    </stepper>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CTe-JK-XTc" userLabel="Line">
+                        <rect key="frame" x="0.0" y="91" width="341" height="0.0"/>
+                        <color key="backgroundColor" red="0.33751881119999999" green="0.75489050150000003" blue="0.41812002660000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="xNg-LY-r4e"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLs-ST-e3w" userLabel="PriceSingle">
+                        <rect key="frame" x="8" y="54" width="29" height="18"/>
+                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <color key="tintColor" red="0.33751881119999999" green="0.75489050150000003" blue="0.41812002660000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="qat-7w-SHb" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="5Ks-de-GP4"/>
+                    <constraint firstItem="oLs-ST-e3w" firstAttribute="top" secondItem="oRt-Rz-jWj" secondAttribute="top" id="6gO-ff-jhY"/>
+                    <constraint firstItem="znk-aN-eqh" firstAttribute="bottom" secondItem="1LH-mq-cI7" secondAttribute="bottom" id="SMp-nP-XtL"/>
+                    <constraint firstItem="oRt-Rz-jWj" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="Sp7-2B-5Qf"/>
+                    <constraint firstItem="CTe-JK-XTc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="SrD-SG-mZA"/>
+                    <constraint firstItem="znk-aN-eqh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Wis-Jy-rHt"/>
+                    <constraint firstItem="Icd-35-cV8" firstAttribute="centerX" secondItem="oRt-Rz-jWj" secondAttribute="centerX" id="ZoN-bu-6cd"/>
+                    <constraint firstAttribute="trailing" secondItem="CTe-JK-XTc" secondAttribute="trailing" id="ebZ-gs-aaj"/>
+                    <constraint firstItem="znk-aN-eqh" firstAttribute="top" secondItem="1LH-mq-cI7" secondAttribute="top" id="glp-tE-TfJ"/>
+                    <constraint firstAttribute="bottom" secondItem="CTe-JK-XTc" secondAttribute="bottom" id="hyy-ar-CR0"/>
+                    <constraint firstItem="qat-7w-SHb" firstAttribute="centerY" secondItem="Icd-35-cV8" secondAttribute="centerY" id="iNl-LA-hVD"/>
+                    <constraint firstItem="1LH-mq-cI7" firstAttribute="leading" secondItem="Icd-35-cV8" secondAttribute="leading" id="jf5-my-Pdx"/>
+                    <constraint firstItem="1LH-mq-cI7" firstAttribute="trailing" secondItem="Icd-35-cV8" secondAttribute="trailing" id="ojp-J0-Hgj"/>
+                    <constraint firstItem="oRt-Rz-jWj" firstAttribute="top" secondItem="Icd-35-cV8" secondAttribute="bottom" constant="2" id="qmB-Tu-dpw"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="1LH-mq-cI7" secondAttribute="trailing" constant="2" id="sbi-XV-4a2"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="oRt-Rz-jWj" secondAttribute="trailing" constant="12" id="yWo-fS-Vhr"/>
+                    <constraint firstItem="qat-7w-SHb" firstAttribute="leading" secondItem="oLs-ST-e3w" secondAttribute="leading" id="yvQ-WQ-nSo"/>
+                    <constraint firstItem="znk-aN-eqh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="z2y-W8-w5G"/>
+                    <constraint firstItem="znk-aN-eqh" firstAttribute="leading" secondItem="qat-7w-SHb" secondAttribute="leading" id="zXe-sy-GTF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="tintColor" red="0.33751881119999999" green="0.75489050150000003" blue="0.41812002660000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="amount" destination="Icd-35-cV8" id="PJv-kP-31F"/>
+                <outlet property="priceTotal" destination="1LH-mq-cI7" id="Og6-7X-TUQ"/>
+                <outlet property="productDescription" destination="qat-7w-SHb" id="XBP-nv-lN0"/>
+                <outlet property="productName" destination="znk-aN-eqh" id="YBo-yS-eT3"/>
+                <outlet property="productPrice" destination="oLs-ST-e3w" id="Nyd-hB-koX"/>
+                <outlet property="productStepper" destination="oRt-Rz-jWj" id="QpU-TK-6Vt"/>
+            </connections>
+            <point key="canvasLocation" x="70.5" y="148"/>
+        </tableViewCell>
+    </objects>
+</document>

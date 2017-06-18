@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0A4A7E1EF1F58200AFD14A /* SwipeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A4A7D1EF1F58200AFD14A /* SwipeAnimation.swift */; };
+		4D1DD1661EF28A7E00AC22DB /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DD1641EF28A7E00AC22DB /* ProductTableViewCell.swift */; };
+		4D1DD1671EF28A7E00AC22DB /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D1DD1651EF28A7E00AC22DB /* ProductTableViewCell.xib */; };
+		4D1DD17A1EF2BA7400AC22DB /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DD1781EF2BA7400AC22DB /* CartTableViewCell.swift */; };
+		4D1DD17B1EF2BA7400AC22DB /* CartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D1DD1791EF2BA7400AC22DB /* CartTableViewCell.xib */; };
+		4D1DD1811EF2DEB300AC22DB /* CurrencyPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DD1801EF2DEB300AC22DB /* CurrencyPopUpViewController.swift */; };
+		4D1DD1831EF4172500AC22DB /* ShopManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DD1821EF4172500AC22DB /* ShopManager.swift */; };
+		4D1DD1851EF41AC000AC22DB /* CurrencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DD1841EF41AC000AC22DB /* CurrencyManager.swift */; };
+		4DA2D8671EF0768A00CC49F5 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2D8661EF0768A00CC49F5 /* TabBarViewController.swift */; };
+		4DA2D8691EF076CF00CC49F5 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2D8681EF076CF00CC49F5 /* NavigationViewController.swift */; };
+		4DA2D86B1EF0770500CC49F5 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2D86A1EF0770500CC49F5 /* ProductsViewController.swift */; };
+		4DA2D86D1EF0772C00CC49F5 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2D86C1EF0772C00CC49F5 /* CartViewController.swift */; };
+		4DA2D86F1EF0775100CC49F5 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2D86E1EF0775100CC49F5 /* MoreViewController.swift */; };
+		4DA2D88B1EF0A40600CC49F5 /* FadeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2D88A1EF0A40600CC49F5 /* FadeAnimation.swift */; };
+		4DD0E1791EEF337300777541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0E1781EEF337300777541 /* AppDelegate.swift */; };
+		4DD0E17E1EEF337400777541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD0E17C1EEF337400777541 /* Main.storyboard */; };
+		4DD0E1811EEF337400777541 /* FarmyShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0E17F1EEF337400777541 /* FarmyShop.xcdatamodeld */; };
+		4DD0E1831EEF337400777541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD0E1821EEF337400777541 /* Assets.xcassets */; };
+		4DD0E1911EEF337400777541 /* FarmyShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0E1901EEF337400777541 /* FarmyShopTests.swift */; };
+		4DD0E19C1EEF337400777541 /* FarmyShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0E19B1EEF337400777541 /* FarmyShopUITests.swift */; };
+		4DD0E1B01EEF66F400777541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD0E1AF1EEF66F400777541 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DD0E18D1EEF337400777541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DD0E16D1EEF337300777541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD0E1741EEF337300777541;
+			remoteInfo = FarmyShop;
+		};
+		4DD0E1981EEF337400777541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DD0E16D1EEF337300777541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD0E1741EEF337300777541;
+			remoteInfo = FarmyShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D0A4A7D1EF1F58200AFD14A /* SwipeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeAnimation.swift; sourceTree = "<group>"; };
+		4D1DD1641EF28A7E00AC22DB /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		4D1DD1651EF28A7E00AC22DB /* ProductTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		4D1DD1781EF2BA7400AC22DB /* CartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		4D1DD1791EF2BA7400AC22DB /* CartTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartTableViewCell.xib; sourceTree = "<group>"; };
+		4D1DD1801EF2DEB300AC22DB /* CurrencyPopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyPopUpViewController.swift; sourceTree = "<group>"; };
+		4D1DD1821EF4172500AC22DB /* ShopManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopManager.swift; sourceTree = "<group>"; };
+		4D1DD1841EF41AC000AC22DB /* CurrencyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyManager.swift; sourceTree = "<group>"; };
+		4DA2D8661EF0768A00CC49F5 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		4DA2D8681EF076CF00CC49F5 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		4DA2D86A1EF0770500CC49F5 /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		4DA2D86C1EF0772C00CC49F5 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		4DA2D86E1EF0775100CC49F5 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		4DA2D88A1EF0A40600CC49F5 /* FadeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeAnimation.swift; sourceTree = "<group>"; };
+		4DD0E1751EEF337300777541 /* FarmyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarmyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD0E1781EEF337300777541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DD0E17D1EEF337400777541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DD0E1801EEF337400777541 /* FarmyShop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FarmyShop.xcdatamodel; sourceTree = "<group>"; };
+		4DD0E1821EEF337400777541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DD0E1871EEF337400777541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD0E18C1EEF337400777541 /* FarmyShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarmyShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD0E1901EEF337400777541 /* FarmyShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmyShopTests.swift; sourceTree = "<group>"; };
+		4DD0E1921EEF337400777541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD0E1971EEF337400777541 /* FarmyShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarmyShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD0E19B1EEF337400777541 /* FarmyShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmyShopUITests.swift; sourceTree = "<group>"; };
+		4DD0E19D1EEF337400777541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD0E1AF1EEF66F400777541 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DD0E1721EEF337300777541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD0E1891EEF337400777541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD0E1941EEF337400777541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D1DD1611EF270D000AC22DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D1DD1821EF4172500AC22DB /* ShopManager.swift */,
+				4D1DD1841EF41AC000AC22DB /* CurrencyManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4D1DD17E1EF2D30200AC22DB /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				4D1DD1641EF28A7E00AC22DB /* ProductTableViewCell.swift */,
+				4D1DD1651EF28A7E00AC22DB /* ProductTableViewCell.xib */,
+				4D1DD1781EF2BA7400AC22DB /* CartTableViewCell.swift */,
+				4D1DD1791EF2BA7400AC22DB /* CartTableViewCell.xib */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		4D1DD17F1EF2D32A00AC22DB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DA2D8661EF0768A00CC49F5 /* TabBarViewController.swift */,
+				4DA2D8681EF076CF00CC49F5 /* NavigationViewController.swift */,
+				4DA2D86A1EF0770500CC49F5 /* ProductsViewController.swift */,
+				4D1DD1801EF2DEB300AC22DB /* CurrencyPopUpViewController.swift */,
+				4DA2D86C1EF0772C00CC49F5 /* CartViewController.swift */,
+				4DA2D86E1EF0775100CC49F5 /* MoreViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4DA2D8701EF07F7400CC49F5 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				4DA2D88A1EF0A40600CC49F5 /* FadeAnimation.swift */,
+				4D0A4A7D1EF1F58200AFD14A /* SwipeAnimation.swift */,
+			);
+			name = Effects;
+			sourceTree = "<group>";
+		};
+		4DD0E16C1EEF337300777541 = {
+			isa = PBXGroup;
+			children = (
+				4DD0E1771EEF337300777541 /* FarmyShop */,
+				4DD0E18F1EEF337400777541 /* FarmyShopTests */,
+				4DD0E19A1EEF337400777541 /* FarmyShopUITests */,
+				4DD0E1761EEF337300777541 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DD0E1761EEF337300777541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DD0E1751EEF337300777541 /* FarmyShop.app */,
+				4DD0E18C1EEF337400777541 /* FarmyShopTests.xctest */,
+				4DD0E1971EEF337400777541 /* FarmyShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD0E1771EEF337300777541 /* FarmyShop */ = {
+			isa = PBXGroup;
+			children = (
+				4D1DD1611EF270D000AC22DB /* Model */,
+				4DA2D8701EF07F7400CC49F5 /* Effects */,
+				4D1DD17E1EF2D30200AC22DB /* Controls */,
+				4D1DD17F1EF2D32A00AC22DB /* ViewControllers */,
+				4DD0E1781EEF337300777541 /* AppDelegate.swift */,
+				4DD0E17C1EEF337400777541 /* Main.storyboard */,
+				4DD0E1AF1EEF66F400777541 /* LaunchScreen.storyboard */,
+				4DD0E1821EEF337400777541 /* Assets.xcassets */,
+				4DD0E1871EEF337400777541 /* Info.plist */,
+				4DD0E17F1EEF337400777541 /* FarmyShop.xcdatamodeld */,
+			);
+			path = FarmyShop;
+			sourceTree = "<group>";
+		};
+		4DD0E18F1EEF337400777541 /* FarmyShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DD0E1901EEF337400777541 /* FarmyShopTests.swift */,
+				4DD0E1921EEF337400777541 /* Info.plist */,
+			);
+			path = FarmyShopTests;
+			sourceTree = "<group>";
+		};
+		4DD0E19A1EEF337400777541 /* FarmyShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DD0E19B1EEF337400777541 /* FarmyShopUITests.swift */,
+				4DD0E19D1EEF337400777541 /* Info.plist */,
+			);
+			path = FarmyShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DD0E1741EEF337300777541 /* FarmyShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD0E1A01EEF337400777541 /* Build configuration list for PBXNativeTarget "FarmyShop" */;
+			buildPhases = (
+				4DD0E1711EEF337300777541 /* Sources */,
+				4DD0E1721EEF337300777541 /* Frameworks */,
+				4DD0E1731EEF337300777541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FarmyShop;
+			productName = FarmyShop;
+			productReference = 4DD0E1751EEF337300777541 /* FarmyShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DD0E18B1EEF337400777541 /* FarmyShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD0E1A31EEF337400777541 /* Build configuration list for PBXNativeTarget "FarmyShopTests" */;
+			buildPhases = (
+				4DD0E1881EEF337400777541 /* Sources */,
+				4DD0E1891EEF337400777541 /* Frameworks */,
+				4DD0E18A1EEF337400777541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD0E18E1EEF337400777541 /* PBXTargetDependency */,
+			);
+			name = FarmyShopTests;
+			productName = FarmyShopTests;
+			productReference = 4DD0E18C1EEF337400777541 /* FarmyShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DD0E1961EEF337400777541 /* FarmyShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD0E1A61EEF337400777541 /* Build configuration list for PBXNativeTarget "FarmyShopUITests" */;
+			buildPhases = (
+				4DD0E1931EEF337400777541 /* Sources */,
+				4DD0E1941EEF337400777541 /* Frameworks */,
+				4DD0E1951EEF337400777541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD0E1991EEF337400777541 /* PBXTargetDependency */,
+			);
+			name = FarmyShopUITests;
+			productName = FarmyShopUITests;
+			productReference = 4DD0E1971EEF337400777541 /* FarmyShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DD0E16D1EEF337300777541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ruben Nuñez";
+				TargetAttributes = {
+					4DD0E1741EEF337300777541 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MS5SJ9VK4B;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					4DD0E18B1EEF337400777541 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MS5SJ9VK4B;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4DD0E1741EEF337300777541;
+					};
+					4DD0E1961EEF337400777541 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MS5SJ9VK4B;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4DD0E1741EEF337300777541;
+					};
+				};
+			};
+			buildConfigurationList = 4DD0E1701EEF337300777541 /* Build configuration list for PBXProject "FarmyShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DD0E16C1EEF337300777541;
+			productRefGroup = 4DD0E1761EEF337300777541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DD0E1741EEF337300777541 /* FarmyShop */,
+				4DD0E18B1EEF337400777541 /* FarmyShopTests */,
+				4DD0E1961EEF337400777541 /* FarmyShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DD0E1731EEF337300777541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1DD17B1EF2BA7400AC22DB /* CartTableViewCell.xib in Resources */,
+				4DD0E1B01EEF66F400777541 /* LaunchScreen.storyboard in Resources */,
+				4D1DD1671EF28A7E00AC22DB /* ProductTableViewCell.xib in Resources */,
+				4DD0E1831EEF337400777541 /* Assets.xcassets in Resources */,
+				4DD0E17E1EEF337400777541 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD0E18A1EEF337400777541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD0E1951EEF337400777541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DD0E1711EEF337300777541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA2D86B1EF0770500CC49F5 /* ProductsViewController.swift in Sources */,
+				4DA2D8671EF0768A00CC49F5 /* TabBarViewController.swift in Sources */,
+				4D1DD1851EF41AC000AC22DB /* CurrencyManager.swift in Sources */,
+				4DA2D86D1EF0772C00CC49F5 /* CartViewController.swift in Sources */,
+				4D1DD17A1EF2BA7400AC22DB /* CartTableViewCell.swift in Sources */,
+				4DD0E1811EEF337400777541 /* FarmyShop.xcdatamodeld in Sources */,
+				4D1DD1811EF2DEB300AC22DB /* CurrencyPopUpViewController.swift in Sources */,
+				4D0A4A7E1EF1F58200AFD14A /* SwipeAnimation.swift in Sources */,
+				4DA2D86F1EF0775100CC49F5 /* MoreViewController.swift in Sources */,
+				4D1DD1831EF4172500AC22DB /* ShopManager.swift in Sources */,
+				4D1DD1661EF28A7E00AC22DB /* ProductTableViewCell.swift in Sources */,
+				4DA2D8691EF076CF00CC49F5 /* NavigationViewController.swift in Sources */,
+				4DD0E1791EEF337300777541 /* AppDelegate.swift in Sources */,
+				4DA2D88B1EF0A40600CC49F5 /* FadeAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD0E1881EEF337400777541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD0E1911EEF337400777541 /* FarmyShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD0E1931EEF337400777541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD0E19C1EEF337400777541 /* FarmyShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DD0E18E1EEF337400777541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DD0E1741EEF337300777541 /* FarmyShop */;
+			targetProxy = 4DD0E18D1EEF337400777541 /* PBXContainerItemProxy */;
+		};
+		4DD0E1991EEF337400777541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DD0E1741EEF337300777541 /* FarmyShop */;
+			targetProxy = 4DD0E1981EEF337400777541 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DD0E17C1EEF337400777541 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD0E17D1EEF337400777541 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DD0E19E1EEF337400777541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DD0E19F1EEF337400777541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DD0E1A11EEF337400777541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = MS5SJ9VK4B;
+				INFOPLIST_FILE = FarmyShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meow.FarmyShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4DD0E1A21EEF337400777541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = MS5SJ9VK4B;
+				INFOPLIST_FILE = FarmyShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meow.FarmyShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4DD0E1A41EEF337400777541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MS5SJ9VK4B;
+				INFOPLIST_FILE = FarmyShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meow.FarmyShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarmyShop.app/FarmyShop";
+			};
+			name = Debug;
+		};
+		4DD0E1A51EEF337400777541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MS5SJ9VK4B;
+				INFOPLIST_FILE = FarmyShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meow.FarmyShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarmyShop.app/FarmyShop";
+			};
+			name = Release;
+		};
+		4DD0E1A71EEF337400777541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MS5SJ9VK4B;
+				INFOPLIST_FILE = FarmyShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meow.FarmyShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FarmyShop;
+			};
+			name = Debug;
+		};
+		4DD0E1A81EEF337400777541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MS5SJ9VK4B;
+				INFOPLIST_FILE = FarmyShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meow.FarmyShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FarmyShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DD0E1701EEF337300777541 /* Build configuration list for PBXProject "FarmyShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD0E19E1EEF337400777541 /* Debug */,
+				4DD0E19F1EEF337400777541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD0E1A01EEF337400777541 /* Build configuration list for PBXNativeTarget "FarmyShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD0E1A11EEF337400777541 /* Debug */,
+				4DD0E1A21EEF337400777541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD0E1A31EEF337400777541 /* Build configuration list for PBXNativeTarget "FarmyShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD0E1A41EEF337400777541 /* Debug */,
+				4DD0E1A51EEF337400777541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD0E1A61EEF337400777541 /* Build configuration list for PBXNativeTarget "FarmyShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD0E1A71EEF337400777541 /* Debug */,
+				4DD0E1A81EEF337400777541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4DD0E17F1EEF337400777541 /* FarmyShop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4DD0E1801EEF337400777541 /* FarmyShop.xcdatamodel */,
+			);
+			currentVersion = 4DD0E1801EEF337400777541 /* FarmyShop.xcdatamodel */;
+			path = FarmyShop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4DD0E16D1EEF337300777541 /* Project object */;
+}
